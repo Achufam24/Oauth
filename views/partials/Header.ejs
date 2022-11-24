@@ -1,0 +1,22 @@
+<nav>
+    <ul class="nav">
+        <% if (user) { %>
+        <li><a href="/auth/logout">Log out</a></li>
+        <% } else { %>
+        <li><a href="/auth/login">Login</a></li>
+        <% } %>
+        <li><a href="/">Homepage</a></li>
+        <li><a href="/profile">Profile</a></li>
+    </ul>
+</nav>
+
+<style>
+    .nav{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        margin-left: 2rem;
+    }
+</style>

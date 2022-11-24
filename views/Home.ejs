@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Passport</title>
+        <style>
+            body{
+                font-family: arial;
+                margin: 0;
+            }
+            nav{
+                background: rgb(62, 62, 158);
+                padding: 20px 10px;
+            }
+            nav ul{
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 0;
+            }
+            nav li{
+                list-style-type: none;
+                display: inline-block;
+                margin: 0 10px 0 0;
+            }
+            nav a{
+                color: #fff;
+                font-size: 18px;
+                background: rgba(255,255,255,0.2);
+                text-decoration: none;
+                padding: 10px;
+                display: block;
+            }
+            main, header{
+                max-width: 960px;
+                margin: 30px auto;
+                padding: 0 10px;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <%- include("./partials/Header.ejs") %>
+        <header>
+            <h1>This is passport login, </h1>
+            <h2>Homepage</h2>
+        </header>
+        <main>
+            <h1>Hey, my name is Achu</h1>
+            <p>Hey, I implemented Oauth for Google, Facebook and Github. I will add twitter and more later.</p>
+        </main>
+    </body>
+</html>
