@@ -8,6 +8,7 @@ Oauth authentication with Google, Facebook and Github. using Passport.js library
  1. <b>Clone this repo</b>
  2. <b> Run "Npm run install"</b>
  3. <b> Run "npm run dev" to start server </b>
+ 4. <b> Add clientId and secret to env </b>
  
  <h2> Libraries and Packages used </h2>
  <ul>
